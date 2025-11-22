@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/weather")
-@CrossOrigin
+@CrossOrigin(origins = "https://weather-app-one-gamma-72.vercel.app")
+
 public class Controller {
 
     @Autowired
